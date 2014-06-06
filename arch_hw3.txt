@@ -1,0 +1,17 @@
+1.	0x7F006632, SP
+2.	the heap is programmer controled memory, malloc and free are
+	used to add and remove data from it. it is used for some non-local
+	variables. It is below the stack (in lower memory).
+3.	8, AX, BX, CX, DX, SI, DI, BP, SP
+4.	the registers in the pentium are single 32-bit registers instead
+	of double 8-bit registers.
+5.	INT, INTO, IRET
+6.	Usage: objdump <option(s)> <file(s)>
+7.	MV identifier PTR [location], value
+8.	x86 refers to a broader set of architectures.  8088 assembly is a
+	subset of x86 assembly.
+9.	is makes it so that the stack overflows into the heap instead of going out
+	of bounds.
+10.	it causes all occourences of an uncommented string of characters to be 
+	replaced by a value.
+	

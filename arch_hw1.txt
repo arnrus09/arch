@@ -1,0 +1,31 @@
+1.	Microcontrollers are ultra lightweight computers.
+	Many features of a normal computer are excluded
+	because microcontrollers often have a more narrow
+	purpose.
+
+3.	Floating point unit, they also have much less memory.
+
+4.	It is a Harvard architecture and not a Von Neumann
+	architecture because programs are seperated from
+	memory.
+5.	RAM is easiy rewrittable and is not persistant.
+	ROM is difficult if at all possible to change but
+	it is persistant.
+6.	Because SRAM requires 6-10 times as many transistors.
+7.	FLASH for storing programs, SRAM for short term memory
+	storage, and EEPROM for long term memory storage.
+8.	A watchdog timer is an interupt that causes a reset
+	under certain circumstances.
+9.	Memory mapped IO means that reading and writing is
+	adressed to locations in memory that communicate 
+	directly with the IO pins.
+10.	It would use a time delay in a loop, turning it on, delaying,
+	turning it off.
+11.	It would need to have another state that performed this
+	action.
+12.	Erasable Programable Read Only Memory, electrically 
+	Erasable Programable Read Only Memory.
+13.	Universal asynchronous receiver and trasmitter
+14.	A signal to change the flow of execution, in the Atmel AVR,
+	they are caused by external circumstances.
+

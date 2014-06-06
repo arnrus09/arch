@@ -1,0 +1,17 @@
+
+1. it would depend on the efficiency of the cluster.
+
+2. yes
+
+3. performance seemed to decrease from 100 to 200
+
+4.public class Mapper
+{
+  public void map(String key, String value)
+  {
+    String words[] = key.split("(\\W)+");
+    for (int i = 0; i < words.length; i++)
+    {
+      Wmr.emit(words[i].toUpperCase(), "1");
+    }
+  }

@@ -1,0 +1,11 @@
+1.	It serves many purposes.  It allows less frequently used parts
+	of memory to be smuggled onto disk saving space, it allows the memory for
+	different programs to be rearranged for maximum efficiency while
+	still allowing the program to use continuous adresses.
+2.	a page table is a mapping that supports virtual memory.
+3.	
+4.	46, a 32-bit word and a 16-bit word, two bits of which specify the
+	security level.
+5.	| 52 | 21 | 55 | 112 |, | 34h | 15h | 37h | 70h |
+6.	| 308 | 21 | 55 | 368 | 
+

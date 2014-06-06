@@ -1,0 +1,22 @@
+1.	power
+2.	to determine when a desired byte has been
+	produced and it is time to stop shifting
+3.	shared memory can be adressed by any processor
+	but with distributed memory, each processer
+	has its own section of memory that other processers
+	must request to use.
+4.	they allow a greater amount of memory to be adressed
+	then could normally be done with the word size whose
+	maximum value was unable to  adress much of memory.
+5.	find out how big of chunks were read into the cache
+	of a processor at one time and break the array into
+	pieces divisible by that size.
+6.	decreases the stack pointer by four, increasing the 
+	stack size.
+7.	
+8.	the synchronized key word gives an object's lock to
+	a single process, requiring all other processes to wait
+	before calling any of that object's other synchronized
+	methods.
+9.	cache coherence has to do with whether or not a given
+	processor's cache is consitent with memory.

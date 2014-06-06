@@ -1,0 +1,13 @@
+1.	8
+2.	BL is the lower byte of BX, which is a two byte register.
+3.	a: 00000, b: ABCD0
+4.	INT, INTO, IRET
+5.	SCASW
+6.	the first is interpretted as 2 bytes and the second is
+	interpretted as one byte.  They both have the same effect
+	on memory
+7.	it would have to use the whole ax register for each character.
+8.	MV identifier PTR [location], value
+9.	Maybe because of the fact that a carry flag must be set if
+	the first byte overflows so that one may be added 
+	to the sum the higher bytes.
